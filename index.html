@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <audio
+        src="music/Rick Astley - Never Gonna Give You Up.mp3"
+        id="audio1"
+      ></audio>
+      <audio src="music/The Weeknd - A Lonely Night.mp3" id="audio2"></audio>
+      <audio src="music/Loveless - Middle Of The Night.mp3" id="audio3"></audio>
+      <audio
+        src="music/Sierra Kidd - Living Life, In The Night.mp3"
+        id="audio4"
+      ></audio>
+      <audio src="music/Fool's Garden - Lemon Tree.mp3" id="audio5"></audio>
+      <audio
+        src="music/ChubbyChecker - Let's twist again.mp3"
+        id="audio6"
+      ></audio>
+
+      <div onmouseenter="playSong(this)" onmouseleave="pauseSong()" class="cover" id="Rick_Astley">
+        <img
+          src="img/Rick Astley - Never Gonna Give You Up.jpg"
+          alt=""
+          id="img1"
+        />
+      </div>
+      <div onmouseenter="playSong(this)" onmouseleave="pauseSong()" class="cover" id="The_Weeknd">
+        <img src="img/The Weeknd - A Lonely Night.jpg" alt="" id="img2" />
+      </div>
+      <div onmouseenter="playSong(this)" onmouseleave="pauseSong()" class="cover" id="Loveless">
+        <img src="img/Loveless - Middle Of The Night.jpg" alt="" id="img3" />
+      </div>
+      <div onmouseenter="playSong(this)" onmouseleave="pauseSong()" class="cover" id="Sierra_Kidd">
+        <img
+          src="img/Sierra Kidd - Living Life, In The Night.jpg"
+          alt=""
+          id="img4"
+        />
+      </div>
+      <div onmouseenter="playSong(this)" onmouseleave="pauseSong()" class="cover" id="Fools_Garden">
+        <img src="img/Fool's Garden - Lemon Tree.jpg" alt="" id="img5" />
+      </div>
+      <div onmouseenter="playSong(this)" onmouseleave="pauseSong()" class="cover" id="ChubbyChecker">
+        <img src="img/ChubbyChecker - Let's twist again.jpg" alt="" id="img6" />
+      </div>
+    </div>
+  </body>
+</html>
+<script src="js/script.js"></script>
